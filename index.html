@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Nuestras fotos en la web <3</title>
+
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+    <!-- Enlace a Lightbox2 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.6/css/lightbox.min.css">
+
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            background: linear-gradient(to right, #28a745, #007bff);
+            background-attachment: fixed; /* Agregar movimiento lento al fondo degradado */
+            color: #fff;
+            padding-top: 50px; /* Ajustar el espaciado del cuerpo para evitar que el encabezado se superponga */
+            margin: 0; /* Eliminar el margen predeterminado del body */
+        }
+
+        .gallery-item {
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-section {
+            margin-bottom: 40px;
+        }
+
+        .gallery-section-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        #gallery-header {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 id="gallery-header" class="text-center mb-4">Nuestras fotos en la web <3</h1>
+
+    <div class="gallery-section">
+        <h2 class="gallery-section-title">Primeras fotos de novios</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="https://via.placeholder.com/800" data-lightbox="gallery" data-title="Imagen 1">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded gallery-item" alt="Imagen 1">
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="https://via.placeholder.com/800" data-lightbox="gallery" data-title="Imagen 2">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded gallery-item" alt="Imagen 2">
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="https://via.placeholder.com/800" data-lightbox="gallery" data-title="Imagen 3">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded gallery-item" alt="Imagen 3">
+                </a>
+            </div>
+            <!-- Agrega más columnas según sea necesario -->
+        </div>
+    </div>
+
+    <div class="gallery-section">
+        <h2 class="gallery-section-title">Primer aniversario</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="https://via.placeholder.com/800" data-lightbox="gallery" data-title="Imagen 4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded gallery-item" alt="Imagen 4">
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="https://via.placeholder.com/800" data-lightbox="gallery" data-title="Imagen 5">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded gallery-item" alt="Imagen 5">
+                </a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="https://via.placeholder.com/800" data-lightbox="gallery" data-title="Imagen 6">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded gallery-item" alt="Imagen 6">
+                </a>
+            </div>
+            <!-- Agrega más columnas según sea necesario -->
+        </div>
+    </div>
+
+    <!-- Agrega más secciones según sea necesario -->
+
+</div>
+
+<!-- Enlace a Bootstrap JS y Popper.js -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- Enlace a Lightbox2 JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.6/js/lightbox.min.js"></script>
+
+</body>
+</html>
